@@ -1,0 +1,75 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      character-parser:
+        specifier: ^4.0.0
+        version: 4.0.0
+      is-expression:
+        specifier: github:ngsctt/pug-is-expression
+        version: https://codeload.github.com/ngsctt/pug-is-expression/tar.gz/832ee5ff9fbc6abff2ca68f9e59a2cb50fa40a32
+      pug-error:
+        specifier: ^1.3.3
+        version: 1.3.3
+    devDependencies:
+      acorn:
+        specifier: ^7.1.1
+        version: 7.4.1
+      acorn-walk:
+        specifier: ^7.1.1
+        version: 7.2.0
+
+packages:
+
+  acorn-walk@7.2.0:
+    resolution: {integrity: sha512-OPdCF6GsMIP+Az+aWfAAOEt2/+iVDKE7oy6lJ098aoe59oAmK76qV6Gw60SbZ8jHuG2wH058GF4pLFbYamYrVA==}
+    engines: {node: '>=0.4.0'}
+
+  acorn@7.4.1:
+    resolution: {integrity: sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  acorn@8.14.0:
+    resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  character-parser@4.0.0:
+    resolution: {integrity: sha512-jWburCrDpd+aPopB7esjh/gLyZoHZS4C2xwwJlkTPyhhJdXG+FCG0P4qCOInvOd9yhiuAEJYlZsUMQ0JSK4ykw==}
+
+  is-expression@https://codeload.github.com/ngsctt/pug-is-expression/tar.gz/832ee5ff9fbc6abff2ca68f9e59a2cb50fa40a32:
+    resolution: {tarball: https://codeload.github.com/ngsctt/pug-is-expression/tar.gz/832ee5ff9fbc6abff2ca68f9e59a2cb50fa40a32}
+    version: 4.1.0
+
+  object-assign@4.1.1:
+    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
+    engines: {node: '>=0.10.0'}
+
+  pug-error@1.3.3:
+    resolution: {integrity: sha512-qE3YhESP2mRAWMFJgKdtT5D7ckThRScXRwkfo+Erqga7dyJdY3ZquspprMCj/9sJ2ijm5hXFWQE/A3l4poMWiQ==}
+
+snapshots:
+
+  acorn-walk@7.2.0: {}
+
+  acorn@7.4.1: {}
+
+  acorn@8.14.0: {}
+
+  character-parser@4.0.0: {}
+
+  is-expression@https://codeload.github.com/ngsctt/pug-is-expression/tar.gz/832ee5ff9fbc6abff2ca68f9e59a2cb50fa40a32:
+    dependencies:
+      acorn: 8.14.0
+      object-assign: 4.1.1
+
+  object-assign@4.1.1: {}
+
+  pug-error@1.3.3: {}
